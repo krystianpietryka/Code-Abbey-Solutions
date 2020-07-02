@@ -1,0 +1,18 @@
+#Code written in Python 3.8.3
+
+def Min(array1,array2):
+    array1 = a
+    array2 = b
+    results = []
+    for i in range(0,len(a)):
+        if a[i] < b[i]:
+            results.append(a[i])
+        else:
+            results.append(b[i])
+    print(results)
+
+
+a = [5,2,100]
+b = [3,8,15]
+Min(a,b)
+        
