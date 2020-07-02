@@ -1,0 +1,16 @@
+#Code written in Python 3.8.3
+
+def SumsLoop(array1,array2):                       #Takes in 2 arrays                                       
+    results = []                                  
+    for i in range(0, len(array1)):                #amount of loops equal to length of arrays              
+        current = int(array1[i]) + int(array2[i])  #var stores current result
+        results.append(current)
+
+    print(results)               #prints the results
+
+
+a = [100,15,1945] #array1
+b = [8,245,54]    #array2
+
+SumsLoop(a,b)
+        
