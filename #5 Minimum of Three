@@ -1,0 +1,22 @@
+#Code written in Python 3.8.3
+
+def Min(array1,array2,array3):
+    array1 = a
+    array2 = b
+    array3 = c
+    results = []
+    for i in range(0,len(array1)):
+        if (a[i] <= b[i]) and (a[i] <= c[i]):
+            results.append(a[i])
+        elif (b[i] <= a[i]) and (b[i] <= c[i]):
+            results.append(b[i])
+        else:
+            results.append(c[i])
+    print(results)
+
+
+a = [7,15,300]
+b = [3,20,550]
+c = [5,40,137]
+Min(a,b,c)
+        
