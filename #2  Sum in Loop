@@ -1,0 +1,13 @@
+# Code written in Python 3.8.3
+
+
+def SumLoop(array):         #Main function
+    result = 0
+    for i in array:
+        result += int(i)
+
+    print(result)
+
+
+a = (10,20,30,40,5,6,7,8)
+SumLoop(a)                  #Function call
