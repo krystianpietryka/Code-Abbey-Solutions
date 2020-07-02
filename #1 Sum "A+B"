@@ -1,0 +1,8 @@
+def Sum(a,b):                   # Main function
+    result = (int(a) + int(b))
+    print(a, '+', b ,'=',result)
+
+
+
+
+Sum(3,5)                        # Function call
