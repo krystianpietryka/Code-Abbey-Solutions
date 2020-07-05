@@ -1,0 +1,18 @@
+#Code written in Python 3.8.3
+
+
+#This Code converts temperature degrees in Fahrenheit to Celsius
+
+def FtoC(array):
+    results = []
+    for f in array:
+        c = (f - 32) * (5/9)  #This is the formulae
+        c = round(c)
+        results.append(c)
+    print(results)
+
+
+a = [495,353,168,-39,22] #the array of Values in Fahrenheit
+
+FtoC(a)
+    
