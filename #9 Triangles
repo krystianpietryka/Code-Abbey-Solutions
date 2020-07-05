@@ -1,0 +1,18 @@
+#Code written in Python 3.8.3
+
+#If 2 shorter sides summed are longer or equal to the longest side, the triangle is possible
+
+
+def TriangleCheck(a,b,c):
+    a = int(a)
+    b = int(b)
+    c - int(c)
+    if a+b >= c:
+        print('1')
+    else:
+        print('0')
+
+
+
+TriangleCheck(3,4,5)
+TriangleCheck(1,2,4)
