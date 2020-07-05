@@ -1,0 +1,54 @@
+#Code written in Python 3.8.3
+
+
+# This program rounds a number to the whole integer, yes,  I know there is already a function for that.
+
+
+
+def Divide(a,b):  #dunno why I even bothered to write this
+    d = a/b
+    return d
+
+
+def Round(number):
+    negativeflag = 0          # Flag that checks if a number is negative
+    number = str(number)      # convert the number to string, to check its lenght including '.'
+    if number[0] == '-':      # if the first character is a minus, we set the flag to 1
+        number = number[1:]   # For the time being we subtract the minus character, the rounding behaves the same way positive or negative
+        negativeflag = 1
+    place = 0
+    for i in number:          # checks the place of the dot
+        place += 1
+        if i == '.':
+            place -+ 1
+            break
+    if place +1   == len(number):  # if the place is equal to the lenght of the number,
+                              # it means that there was no dot, and thus no break above
+                              # in that case, the number is whole, we dont need to execute the rest of the code
+        
+        print('Number %s is whole, there is not a need to round' %number )
+        return
+        
+    else:
+        if int(number[place]) >= 5:                # Check the number after the dot, it dictates if we round up or down
+            rounded = int(number[0:(place-1)]) + 1 # we subtract the dot, and everything after it, and add 1 to round up
+            
+            if negativeflag == 1:                  # if the flag is checked, we add back the minus at the start          
+                 negative = '-'
+                 negative = negative + str(rounded)
+                 print(negative)
+            else:
+                print(rounded)
+                
+        else:                                      # the case if we need to round down
+            rounded = int(number[0:(place-1)])
+            if negativeflag == 1:
+                 negative = '-'
+                 negative = negative + str(rounded)
+                 print(negative)
+            else:
+                print(rounded)
+        
+
+
+Round(Divide(400, 2))   # Function Call
