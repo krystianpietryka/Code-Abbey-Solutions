@@ -1,0 +1,22 @@
+#Code written in Python 3.8.3
+
+
+#Yes, I know the test data is different, the Function works with whatever
+
+
+def Maximum(array):
+    ma = 0
+    mi = array[0]
+    for i in array:
+        if i > ma:
+            ma = i
+        if i < mi:
+            mi = i
+    print(ma,mi)
+
+
+
+
+array = [78,3,5,7,9,23,64,86,222,300,1,64,12,76,54,43,32]
+
+Maximum(array)
