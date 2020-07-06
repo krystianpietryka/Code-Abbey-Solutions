@@ -1,0 +1,25 @@
+#Code written in Python 3.8.3
+
+def Equation(a,b,c):
+    result = (a*b) +c
+    return result
+
+
+def SumOfDigits(number):
+    digits = []
+    while number >9 :                   #Main Condition
+        current = number % 10           #Getting the last digit
+        digits.append(current)
+        number = (number - current) /10 #subtracting the digit from the number, and dividing by ten, to get the next digit
+    digits.append(number)
+    summed = 0
+    for i in digits:                    #Calculating the sum of the digits
+        summed += i
+    print(summed)
+        
+
+
+
+SumOfDigits(Equation(11,9,1))
+SumOfDigits(Equation(14,90,232))
+SumOfDigits(Equation(111,15,111))
