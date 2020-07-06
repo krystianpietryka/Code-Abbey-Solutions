@@ -1,0 +1,16 @@
+# Code written in Python 3.8.3
+
+def sqrt(x,n):
+    r = 1
+    if n != 0:
+        for i in range(n):
+            r = (r + x/r) / 2
+    print(r)
+
+
+
+sqrt(150,0)
+sqrt(5,1)
+sqrt(10,3)
+
+        
