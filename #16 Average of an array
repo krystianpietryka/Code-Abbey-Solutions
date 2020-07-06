@@ -1,0 +1,14 @@
+#Code written in Python 3.8.3
+
+def avg(array):
+    summed = 0
+    count = len(array)
+    for i in array:
+        summed = summed + i
+    average = summed / count
+    print(average)
+
+
+avg([2, 3, 7 ])
+avg([20,10])
+avg([1])
