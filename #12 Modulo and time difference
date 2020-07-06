@@ -1,0 +1,33 @@
+#Code written in Python 3.8.3
+
+def Difference(day1,hour1,min1,sec1,day2,hour2,min2,sec2):              #Converting both dates to seconds
+    c1= sec1 + (min1 * 60) + (hour1 * 60 * 60) + (day1 * 60 * 60 * 24)
+    c2= sec2 + (min2 * 60) + (hour2 * 60 * 60) + (day2 * 60 * 60 * 24)
+    t = c2 - c1                                                         #calculating the difference in seconds
+    return t
+
+
+
+
+
+def ConvertBack(t):               #Convert the difference back to date format
+    
+    days = int(t/(24*60*60))      #we divide t by the amount of seconds in a day to get the amount of days 
+    t = t%(24*60*60)              #then we use modulo to get the rest from the division,this becomes our new t
+    
+    hours = int(t/(60*60))        #The formula applies in the same way below
+    t = t%(60*60)
+    
+    minutes = int(t/60)
+    t = t%60
+    
+    seconds = t
+    print(days,hours,minutes,seconds)
+
+
+
+
+ConvertBack(Difference(1, 0, 0, 0, 2, 3, 4, 5))
+ConvertBack(Difference(5, 3, 23, 22, 24, 4, 20, 45))
+ConvertBack(Difference(8, 4, 6, 47, 9, 11, 51, 13))
+    
