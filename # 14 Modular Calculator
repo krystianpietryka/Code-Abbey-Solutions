@@ -1,0 +1,40 @@
+# Code written in Python 3.8.3
+
+def Operation(n,o):      #Checks the operation symbol, number, and applies it
+    o = o.split()
+    if (o[0]) == '+':
+        s = int(o[1])
+        n = n+s
+        return n
+    elif (o[0]) == '-':
+        s = int(o[1])
+        n = n-s
+        return n
+    elif (o[0]) == '*':
+        s = int(o[1])
+        n = n*s
+        return n
+    elif (o[0]) == '/':
+        s = int(o[1])
+        n = n/s
+        return n
+    elif (o[0]) == '%':
+        s = int(o[1])
+        n = n%s
+        return n
+        
+        
+    
+    
+
+
+def Calculator(number,operations):
+    for i in range(0,len(operations)):              #Main loop, does all the operations, and changes the current number after doing them
+        number = Operation(number,operations[i])
+    print(number)
+        
+
+    
+operations = ['+ 3','* 7','+ 10','* 2','* 3','+ 1','% 11']
+Calculator(5, operations)                                
+        
