@@ -50,5 +50,6 @@ def Round(number):
                 print(rounded)
         
 
-
-Round(Divide(400, 2))   # Function Call
+Round(Divide(12,8))
+Round(Divide(11,-3))
+Round(Divide(400, 5))   
