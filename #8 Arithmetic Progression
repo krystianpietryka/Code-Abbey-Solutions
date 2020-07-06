@@ -9,5 +9,5 @@ def Arithmetic(a,b,n):
         current += b
     print(result)
 
-
+Arithmetic(5,2,3)
 Arithmetic(3,0,10)
