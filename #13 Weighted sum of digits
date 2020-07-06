@@ -1,0 +1,18 @@
+# Code written in Python 3.8.3
+
+
+def wsd(number):
+    number = str(number)         # convert the int to string, to get the digits one by one
+    position = 1                 # count of the position
+    weighted = 0                 # holds the sum
+    for i in number:             # The main equation loop
+        i = int(i)
+        weighted += i * position
+        position += 1
+    print(weighted)
+
+
+
+wsd(9)
+wsd(15)
+wsd(1776)
