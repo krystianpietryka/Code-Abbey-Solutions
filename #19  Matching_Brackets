@@ -1,0 +1,71 @@
+# Code written in Python 3.8.3
+
+
+
+def Pair(a,b):             # Function checks if two brackets next to each other match
+    if a == '(':
+        if b == ')':
+            return True
+    if a == '[':
+        if b == ']':
+            return True
+    if a == '{':
+        if b == '}':
+            return True
+    if a == '<':
+        if b == '>':
+            return True
+    else:
+        return False
+    
+
+def Matching_Brackets(string):    
+    openn = ('(','{','[','<')     #tuple with all open brackets
+    closed = (')','}',']','>')    #tuple with all closed brackets
+    brackets = []
+    flag = 1                      #stores the result
+    position = 0
+    
+    for i in string:                  #Appends all bracket characters to the brackets array
+        if i in openn or i in closed:
+            brackets.append(i)
+            
+    while len(brackets) != 0: 
+        
+        if len(brackets) %2 != 0:     #if the amount of brackets is not even, the brackets dont match
+            flag = 0
+            break
+        
+        if ((position +1) > len(brackets)) or (position > len(brackets)):  #A check to make sure we do not run out of array range
+            position = 0
+            
+        a = brackets[position]   #{pairs the brackets
+        b = brackets[position+1] #{
+        position += 1
+
+        if a in openn and b in closed: #Checks it the first bracket is open and the second one is closed
+            
+            if Pair(a,b) != True:      # if the check fails we are sure the brackets do not match in the string
+                flag = 0
+                break
+            
+            else:
+                brackets.remove(a)     # if the pair matches, we remove the pair, so that the brackets at both ends of the string can become a pair at some point
+                brackets.remove(b)
+                position = 0           #we start checking from the beggining of the array again
+        
+    print(flag) #prints the result
+    
+    
+
+
+a = '(a+[b*c]-{d/3})'
+b = '(a + [b * c) - 17]'
+c = '(((a * x) + [b] * y) + c'
+d = 'auf(zlo)men [gy<psy>] four{s}'
+
+Matching_Brackets(a)
+Matching_Brackets(b)
+Matching_Brackets(c)
+Matching_Brackets(d)
+            
