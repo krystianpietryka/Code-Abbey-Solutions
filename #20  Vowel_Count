@@ -1,0 +1,18 @@
+#Code written in Python 3.8.3
+
+
+def Vowel_Count(string):
+    vowels = ('a','o','u','i','e','y')
+    count = 0
+    for i in string:
+        if i in vowels:
+            count += 1
+    print(count)
+
+
+
+Vowel_Count('abracadabra')
+Vowel_Count('pear tree')
+Vowel_Count('o a kak ushakov lil vo kashu kakao')
+Vowel_Count('my pyx')
+    
