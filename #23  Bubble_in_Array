@@ -1,0 +1,33 @@
+#Code written in Python 3.8.3
+
+import copy
+
+
+def Bubble_Sort(array):
+    swaps = 0                      #Counts the swaps
+    length = len(array)-1          #used in comparing the array[i] to the next position i+1, if we took the whole len() it would run out of indexes
+    for i in range(0, length):
+            a = array[i]
+            b = array[i+1]
+            if a > b:                #the sorting
+                c = copy.deepcopy(a)
+                array[i] = b
+                array[i+1] = c
+                swaps += 1           #add to the number of swaps if we swap
+    print(swaps)
+    return array
+
+
+def Checksum(array):                #The same checksum algorhitm as in problem #17
+    result = 0
+    for i in array:
+        result += i
+        result = result*113
+        result = result % 10000007
+    print(result)
+
+
+
+
+array = [1, 4, 3, 2, 6, 5]
+Checksum(Bubble_Sort(array))
