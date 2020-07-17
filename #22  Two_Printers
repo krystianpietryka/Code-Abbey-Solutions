@@ -1,0 +1,13 @@
+#Code written in Python 3.8.3
+
+#The math formula borrowed from @Muhhamad Tahir on stackoverflow, as after many tries I couldn't quite figure it out by myself. :)
+
+import math
+
+
+def Printers(x,y,n):
+    result = math.ceil((max((x,y)) / float(x+y)) * n) * min((x,y))
+    print(result)
+
+Printers(1,1,5)
+Printers(3,5,4)
