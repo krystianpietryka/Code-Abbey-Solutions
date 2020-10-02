@@ -1,0 +1,33 @@
+def Neumann(initial):
+    count = 1              #Counts till sequence loop
+    visited = []           #Stores already calculated random numbers
+    visited.append(initial)
+
+     #power^2, truncate to get the middle
+    double = initial * initial
+    truncated = int((double/100)%10000)
+    current = truncated
+    
+    #Main Loop
+    while True:
+        count += 1
+        double = current * current
+
+        #Checks if leading zeroes are needed; adds them
+        if len(str(double)) < 8:
+            needed = 8 - len(str(double))
+            double = str(double)
+            double =  ('0' * needed) + double
+            double = int(double)
+        truncated = int((double/100)%10000)
+        current = truncated
+        #checks if the random number got repeated
+        if current in visited:
+            break
+        else:
+         visited.append(current)
+    print(count)
+    
+Neumann(1)        
+Neumann(4100)
+Neumann(5761)
