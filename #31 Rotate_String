@@ -1,0 +1,10 @@
+def Rotate(k,s):
+    r = s[0:k]
+    s = s[k:]
+    s = s +r
+    print(s)
+
+
+Rotate(3,'forwhomthebelltolls')
+Rotate(-6,'verycomplexnumber')
+    
