@@ -1,0 +1,18 @@
+def Bubble(array):
+    swaps = 0
+    passes = 0
+    length = len(array)
+    for j in range(length -1):
+        count = 0
+        passes +=1
+        for i in range(length -j -1):
+            if array[i] > array[i+1]:
+                array[i], array[i+1] = array[i+1], array[i]
+                swaps +=1
+                count +=1
+        if count == 0:
+                break
+    print(array,passes,swaps)
+
+a = [3, 1, 4, 1, 5, 9, 2, 6]
+Bubble(a)
