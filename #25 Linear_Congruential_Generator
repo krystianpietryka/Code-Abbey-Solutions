@@ -1,0 +1,15 @@
+def Xnext(a,c,m,x0,n):
+    if n>1:
+        Xcur = (a* x0 +c)%m
+        for i in range(n-1):
+            Xnext = (a* Xcur +c)%m
+            Xcur = Xnext
+        print(Xnext)
+
+    else:
+        xnext = (a*x0 +c) %m
+        print(xnext)
+
+
+Xnext(3,7,12,1,2)
+Xnext(2,3,15,8,10)
