@@ -1,0 +1,29 @@
+def SortwIndexes(array):
+
+    #Assigning indexes to the numbers in starting position
+    indexes = {}
+    index = 1
+    for n in array:
+        indexes[n] = str(index)
+        index += 1
+
+    #Bubble Sort    
+    length = len(array)
+    for j in range(length -1):
+        for i in range(length -j -1):
+            if array[i] > array[i+1]:
+               array[i], array[i+1] = array[i+1], array[i]
+
+    #printing out the final indexes of our array           
+    final = []
+    for s in array:
+        x = indexes[s]
+        final.append(x)
+
+    print(final)
+        
+
+
+        
+a = [50,98,17,79]
+SortwIndexes(a)
