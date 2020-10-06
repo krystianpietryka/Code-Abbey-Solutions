@@ -1,0 +1,21 @@
+def GCD(a,b):
+ while a != b:
+    if a>b:
+        a = a-b
+    else:
+        b = b-a
+ gcd = a
+ return gcd
+
+def LCM(a,b):
+    gcd = GCD(a,b)
+    lcm = int((a*b)/ gcd)
+    print(gcd,lcm)
+
+
+
+LCM(2,3)
+LCM(4,10)
+
+ 
+        
