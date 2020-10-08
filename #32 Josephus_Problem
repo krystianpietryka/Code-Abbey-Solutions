@@ -1,0 +1,20 @@
+#Finding the closest binary numuber to n,
+#and finding the difference between the n and binary; l
+def ClosestBinary(n,k):
+    i= 0
+    l= 0
+    for a in range(9):
+        if n > k**i and n < k**(i+1):
+            l = n - k**i
+            return l
+            break
+        i+= 1
+        
+#Formula for finding survivor: W(n) = k*l +1
+def Josephus(l,k):
+    survivor = k*l + 1
+    print(survivor)
+
+
+
+Josephus(ClosestBinary(10,3),3)
