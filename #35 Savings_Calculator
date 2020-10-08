@@ -1,0 +1,12 @@
+def Savings(s,r,p):
+    years = 0
+    while s <r:
+        s = round((s+ (p/100)*s),2)
+        years += 1
+    print(years)
+
+
+
+
+    
+Savings(1000,10000,8), Savings(50,100,25)
