@@ -1,0 +1,45 @@
+#Converts decimal number to binary
+def ToBinary(number):
+    i = 7
+    b = ''
+    for a in range(8):
+        if number < 2**i:
+            b += '0'
+        else:
+            b += '1'
+            number -= 2**i
+        i -= 1
+    return b
+
+
+#Checks if the sum of bytes in the binary is even
+def Parity(number):
+    s = 0
+    for d in ToBinary(number):
+        s += int(d)
+    if s %2 == 0:
+        return 'good'
+
+#Assigns the letter to the ASCII number
+def Decypher(number):
+     if number == 238:
+        return 'n'
+     elif number == 65:
+         return'A'
+     elif number == 225:
+        return 'a'
+     elif number == 46:
+        return '.'
+
+
+#Calls all the functions, decyphers the message
+numbers = [65, 238, 236, 225, 46]
+message = ''
+for i in numbers:
+ if(Parity(i)) == 'good':
+     message += Decypher(i)
+
+print(message)
+     
+    
+    
