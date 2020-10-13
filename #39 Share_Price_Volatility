@@ -1,0 +1,46 @@
+import math
+
+def Deviation(array):
+    #Calculate the mean
+    s = 0
+    for i in array:
+        s += i
+    m = int(s/ len(array))
+
+    #Calculate the deviation
+    s = 0
+    for a in array:
+        s += (m-a) **2
+    d = s / len(array)
+    d = round(math.sqrt(d))
+    return d
+        
+    
+    
+def Volatility(stocks):
+    #calculating the broker comission fee
+    summed = 0
+    for i in stocks:
+        summed += i
+    mean = round(summed/len(stocks))
+    broker = mean/ 100
+
+
+    #Compare if deviation is at least 4 times the broker
+    if (Deviation(stocks) / broker) >= 4:
+        return True
+    else:
+        return False
+
+    
+    
+JOOG = [99, 99, 99, 99, 99, 99, 99, 101, 101, 101, 101, 101, 101, 101]
+GOLD = [95, 105, 95, 105, 95, 105, 95, 105, 95, 105, 95, 105, 95, 105]
+
+  
+    
+if Volatility(JOOG) == True:
+    print('JOOG')
+
+if Volatility(GOLD) == True:
+    print('GOLD')
