@@ -1,0 +1,28 @@
+def Blackjack(cards):
+    summed = 0
+    for i in cards:
+        if i == 'A':
+            if summed <= 10:
+                summed += 11
+            else:
+                summed += 1
+        else:
+            summed += i
+
+    if summed <= 21:
+         print(summed)
+    else:
+        print('BUST')
+
+
+T = 10
+J = 10
+Q = 10
+K = 10
+
+Blackjack(['A',T])
+Blackjack([2,K,4])
+Blackjack([3,'A',Q,8])
+Blackjack(['A',3,3,3,'A'])
+
+        
