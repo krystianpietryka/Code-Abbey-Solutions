@@ -1,0 +1,27 @@
+def CodeGuesser(secret):
+    
+    #First Loop
+    print('guess the secret number! (3 digits)')
+    guess = input()
+    correct = 0
+    for i in range(0,3):
+        if guess[i] == secret[i]:
+            correct += 1
+    print('correct digits = ',correct)
+
+    #Main Loop
+    while correct != 3:
+        
+     print('guess the secret number! (3 digits)')
+     guess = input()
+     correct = 0
+     for i in range(0,3):
+        if guess[i] == secret[i]:
+            correct += 1
+     print('correct digits = ',correct)
+
+    print('Congratulations, you guessed the secret number! (',secret,')')
+        
+
+CodeGuesser('846')      
+        
