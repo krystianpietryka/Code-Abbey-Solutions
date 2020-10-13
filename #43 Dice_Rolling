@@ -1,0 +1,20 @@
+import random
+from random import random as ran
+from random import seed
+
+def Dice(random):
+    dice = (int(random *6) +1)
+    print(dice)
+
+
+Dice(0.59558786964)
+Dice(0.861037873663)
+Dice(0.385597702116)
+Dice(0.246237673331)
+Dice(0.808033385314)
+Dice(0.0544673665427)
+
+#Just for fun
+seed(random.randint(0,100000))
+Dice(ran())
+
