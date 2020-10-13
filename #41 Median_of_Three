@@ -1,0 +1,28 @@
+def Median(a,b,c):
+    if a >= b:
+        if a >= c:
+            if c >= b:
+                median = c
+            else:
+                median = b
+        else:
+            median = a
+            
+    else:
+        if b >= c:
+            if c >= a:
+                median = c
+            else:
+                median = a
+        else:
+            median = b
+            
+                       
+    print(median)
+
+
+
+Median(7,3,5)
+Median(15,20,40)
+Median(300,550,137)
+        
