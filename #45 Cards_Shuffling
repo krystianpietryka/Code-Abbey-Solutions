@@ -1,0 +1,35 @@
+#Create an array of cards, I am too lazy to do it manually
+Cards = []
+ranks = ['A','2','3','4','5','6','7','8','9','T','J','Q','K']
+suits = ['C','D','H','S']
+for i in suits:
+    for j in ranks:
+        c = i+j
+        Cards.append(c)
+
+
+#convert the numbers to strings (again, laziness)
+numbers= [5814, 1316, 2080, 2712, 0, 647, 8098, 315, 44, 6354, 7867, 100, 61, 763 ,6731, 685,42,9309,569, 92,701, 562,
+        85,8311, 698,220,929, 71, 684, 518, 113, 61,19,168,745,16, 655, 9548,6018,2686, 25,785,81, 721,
+        964,85,44,614, 4, 509, 8708, 19]
+
+for i in numbers:
+    i = str(i)
+
+
+#Main shuffle function
+def Shuffle(Cards,numbers):
+    n = 0
+    for i in range(52):
+        if int(numbers[i]) >= 52:
+            n = int(numbers[i]) % 52
+        Cards[i],Cards[n] = Cards[n], Cards[i]
+
+    print(Cards)
+        
+
+
+
+#Function Call
+Shuffle(Cards,numbers)
+         
