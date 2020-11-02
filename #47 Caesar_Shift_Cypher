@@ -1,0 +1,35 @@
+def Cypher_Shift(letter,shift):
+     alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+     
+     #checks if the element of the string is an letter
+     if letter != ' ' and letter != '.':
+      index = alphabet.index(letter)
+      new = index+shift
+      
+      #if the index + shift is longer than the length of the alphabet, we start from the beginning of the alphabet
+      if new > 26:
+        new = new - 26
+
+      return alphabet[new]
+    
+
+def Caesar(string,shift):
+    
+    new = ''
+
+    #Main Loop
+    for i in string:
+        if i != ' ' and i != '.':
+         a = Cypher_Shift(i,shift)
+         new = new + a
+        else:
+            new = new + i
+    print(new)
+    
+
+
+
+Caesar('YHQL YLGL YLFL.',23)
+Caesar('HYHQ BRX EUXWXV.',23)
+    
+    
