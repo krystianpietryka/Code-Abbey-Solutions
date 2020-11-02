@@ -1,0 +1,22 @@
+def Collatz(initial):
+    
+    #first calculation, done to stop operating on the initial variable
+    if initial %2 == 0:
+        x = int(initial/2)
+    else:
+        x = int(3*initial +1)
+    steps = 1
+    
+    while x != 1:
+        if x %2 == 0:
+            x = int(x/2)
+        else:
+            x = int(3*x +1)
+        steps += 1
+    print(steps)
+
+
+Collatz(2)
+Collatz(15)
+Collatz(97)
+        
