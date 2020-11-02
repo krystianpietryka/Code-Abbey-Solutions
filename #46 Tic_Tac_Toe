@@ -1,0 +1,75 @@
+#g == Grid, s == symbol(x or y)
+def Win_Conditions(g,s):
+    
+    #Rows
+    if ((g[0] == g[1]) and (g[1] == g[2])) and (g[0] == s):
+        return 1
+    elif ((g[3] == g[4]) and (g[4] == g[5])) and (g[3] == s):
+        return 1
+    elif ((g[6] == g[7]) and (g[7] == g[8])) and (g[6] == s):
+        return 1
+    
+    #Columns
+    elif ((g[0] == g[3]) and (g[3] == g[6])) and (g[0] == s):
+        return 1
+    elif ((g[1] == g[4]) and (g[4] == g[7])) and (g[1] == s):
+        return 1
+    elif ((g[2] == g[5]) and (g[5] == g[8])) and (g[2] == s):
+        return 1
+
+    #Diagonal
+    elif ((g[0] == g[4]) and (g[4] == g[8])) and (g[0] == s):
+        return 1
+    elif ((g[6] == g[4]) and (g[4] == g[2])) and (g[6] == s):
+        return 1
+    else:
+        return 0
+
+#Swaps x to y, and y to x
+def Symbol_Swap(symbol):
+    if symbol == 'x':
+        return 'y'
+    else:
+        return 'x'
+    
+    
+#Main function
+def Tic_Tac_Toe(moves):
+    
+    Grid = ['0','0','0','0','0','0','0','0','0']
+    win = 0
+    
+    #First 4 moves cant win you a game, so we start checking win conditions at move 5 (m = 4)
+    m = 4
+    Grid[moves[0]-1] = 'x'
+    Grid[moves[1]-1] = 'y'
+    Grid[moves[2]-1] = 'x'
+    Grid[moves[3]-1] = 'y'
+    symbol = 'x'
+    
+    #Main condition loop
+    while (m <= 8) and  win == 0:
+        Grid[moves[m]-1] = symbol         #puts the x or y on the grid
+        win = Win_Conditions(Grid,symbol) #checks all the win conditions, if true the win variable becomes 1, and the loop breaks
+        m = m+1                           #increment m
+        symbol = Symbol_Swap(symbol)      #swap the symbol
+        
+    #print the winning move number   
+    if m == 9:
+        print('0')
+    else:
+        print(m)
+        
+        
+        
+#Function Calls
+Tic_Tac_Toe([7, 5, 4, 1, 9, 2, 8, 3, 6])
+Tic_Tac_Toe([5, 1, 3, 7, 6, 4, 2, 9, 8])
+Tic_Tac_Toe([5, 1, 2, 8, 6, 4, 7, 3, 9])
+        
+        
+        
+        
+        
+        
+        
