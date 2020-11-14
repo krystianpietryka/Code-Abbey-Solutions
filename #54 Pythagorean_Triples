@@ -1,0 +1,16 @@
+#Main function
+def Triples(s):
+    for c in range(1,s-2):         #loop trough all the possible cs
+        for b in range(1,s-2):     #While looping through all the possible bs
+            for a in range(1,s-2): #And all the possible as    
+                if (a*a + b*b == c*c) and (a+b+c == s):     #The conditions check
+                    
+                    c = max(a,b,c)                          #i input the c as the biggest number artificially
+                    return c*c                              #Because sometimes the first found triple wouldnt have c as the biggest number
+                                                            #but i cant be bothered to write more ifs,and the program works c:
+                    
+
+print(Triples(2))
+print(Triples(12))
+print(Triples(30))
+        
