@@ -1,0 +1,29 @@
+def Palindrome(word):
+    palindrome = '' #Will hold reversed string
+
+    #Deleting punctuation and whitespaces
+    word = word.replace(' ', '')
+    word = word.replace(',', '')
+    word = word.replace('!', '')
+    word = word.replace('\'', '')
+    word = word.replace('?', '')
+
+    #Make the word all lowercase
+    word = word.lower()
+
+    #reverse string using slicing
+    palindrome = word[::-1]
+
+    #Check if the palindrome is the same as our word
+    if palindrome == word:
+        print( 'Y')
+    else:
+        print( 'N')
+
+
+#Function Calls
+Palindrome('Stars')
+Palindrome('O, a kak Uwakov lil vo kawu kakao!')
+Palindrome('Some men interpret nine memos')
+
+    
