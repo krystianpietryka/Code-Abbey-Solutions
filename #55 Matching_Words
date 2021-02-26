@@ -1,0 +1,19 @@
+def Matching(array):
+    unique = []
+    not_unique = []
+    for w in array:
+     if w != 'end':
+        if w not in unique:
+            unique.append(w)
+        else:
+            if w not in not_unique:
+                not_unique.append(w)
+    answer = sorted(not_unique)
+    print(answer)
+
+
+
+words = ['nun', 'lam', 'mip', 'tex', 'bal', 'pif', 'sot', 'bal', 'bod', 'tex', 'end']
+Matching(words)
+    
+    
