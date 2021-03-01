@@ -1,0 +1,36 @@
+import numpy as np
+
+answer = ''
+for i in range(4):
+    random = str(np.random.randint(1, 10))
+    answer += random
+
+print('Let\'s play mastermind!')
+
+
+def Game():
+    correct = 0
+    wrongplace = 0
+    loop_count = 0
+    while True:
+        loop_count += 1
+        print('Take a guess')
+        guess = str(input())
+        if guess == answer:
+            break
+        else:
+            for i in range(0, 4):
+                if guess[i] == answer[i]:
+                    correct += 1
+            for w in guess:
+                if w in answer:
+                    wrongplace += 1
+            wrongplace -= correct
+        print('you got', correct, 'numbers exactly correct!')
+        print('you got', wrongplace, 'numbers right, but are in a wrong position.')
+        wrongplace = 0
+        correct = 0
+    print('Congratulations! You won the game after', loop_count, 'guesses!')
+
+
+Game()
