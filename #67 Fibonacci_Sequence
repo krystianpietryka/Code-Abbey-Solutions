@@ -1,0 +1,13 @@
+def Fibonacci(number):
+    numbers = [0, 1]
+    for i in range(2, 1001):
+        new = numbers[i-1] + numbers[i-2]
+        numbers.append(new)
+    print(numbers.index(number))
+
+
+Fibonacci(610)
+Fibonacci(34)
+Fibonacci(0)
+Fibonacci(1346269)
+Fibonacci(10946)
