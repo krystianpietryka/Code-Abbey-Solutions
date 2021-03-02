@@ -1,0 +1,23 @@
+import numpy as np
+
+
+def Prime(index):
+    numbers = np.arange(2, (index+1)*4)
+    marked = []
+
+    for n in numbers:
+        if ((n % 2) == 0) and (n != 2):
+            marked.append(n)
+        if ((n % 3) == 0) and (n != 3):
+            marked.append(n)
+        if ((n % 5) == 0) and (n != 5):
+            marked.append(n)
+
+    numbers = np.setdiff1d(numbers, marked)
+    print(numbers[index-1])  # -1 because indexes start with 0 (not 1 like in the problem)
+
+
+Prime(7)
+Prime(1)
+Prime(199999)
+Prime(4)
