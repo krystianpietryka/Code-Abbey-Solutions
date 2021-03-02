@@ -1,0 +1,21 @@
+import numpy as np
+
+
+def Prime(prime1, prime2):
+    numbers = np.arange(2, 1000)
+    marked = []
+    for n in numbers:
+        if ((n % 2) == 0) and (n != 2):
+            marked.append(n)
+        if ((n % 3) == 0) and (n != 3):
+            marked.append(n)
+        if ((n % 5) == 0) and (n != 5):
+            marked.append(n)
+
+    numbers = np.setdiff1d(numbers, marked)
+    print(len(np.where(np.logical_and(numbers >= prime1, numbers <= prime2))[0]))
+
+
+Prime(5, 19)
+Prime(11, 29)
+Prime(2, 23)
