@@ -1,0 +1,29 @@
+#Code Abbey problem #60 - Sweet Harvest
+import itertools
+import numpy as np
+
+
+def SweetHarvest(values):
+ number_of_islands = len(values) #number of islands, including the starting one
+ digits = [1,2] #Possible jumps (skipping 1 island or 2 islands at a time)
+ maximum = 0 #stores the max amount of candy earned
+
+ for i in range(1,number_of_islands-4): #we do not need to get longer jump combinations, their sum is too big
+    for jump_set in itertools.product(digits,repeat=i): #create all possible cartesian product of possible jumps
+        summed = 0 #temp sum of values
+        count = 0  #temp sum of jump values
+        for jump in jump_set: #iterate over possible jumps in a given combination
+                if count <= number_of_islands-1: #prevents indexing out of list range
+                    summed += values[count] #add values on encountered islands
+                    count += jump+1         #we add +1, because jump value 2 means skipping over 2 islands, which means move 3 positions in a list
+        if count <= number_of_islands-1: #prevents indexing out of list range
+            summed += values[count]      #add the last encountered island
+        if summed > maximum:             #if sum exceeds max, it becomes the new max
+            maximum = summed
+ print(maximum)
+
+#Test cases and function calls            
+values1 = [11, 5, 3, 17, 2, 13, 19, 7]
+values2 = [9, 7, 12, 7, 16, 3, 7, 17, 14, 13, 4, 6, 11, 6, 3, 3, 5, 4, 11, 3, 15, 12, 14, 2, 15, 19, 11, 12]
+SweetHarvest(values1)
+SweetHarvest(values2)
