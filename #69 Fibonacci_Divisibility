@@ -1,0 +1,17 @@
+def Fibonacci():
+    numbers = [0, 1]
+    for i in range(2, 1000):
+        new = numbers[i-1] + numbers[i-2]
+        numbers.append(new)
+    return numbers
+
+def Divisibility(m):
+     for i in Fibonacci():
+        if i % m ==0 and i != Fibonacci()[0]:
+            print(Fibonacci().index(i))
+            break
+            
+
+Divisibility(17)
+Divisibility(12)
+Divisibility(61)
