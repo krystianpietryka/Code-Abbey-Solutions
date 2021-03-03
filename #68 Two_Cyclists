@@ -1,0 +1,10 @@
+def TwoCyclists(s, v1, v2):
+    vw = v1+v2
+    t = s/vw
+    s1 = v1*t
+    print(s1)
+    
+    
+TwoCyclists(10, 1, 1)
+TwoCyclists(20, 1, 2)
+ 
