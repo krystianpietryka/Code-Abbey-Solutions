@@ -26,8 +26,8 @@ def FunnyWordsGenerator(a,c,m,x0,n):
     lenghts = []
     for i in range(1, amount_of_words+1):
         print('What is the length of the',i,'word?')
-        length = int(input())
-        lenghts.append(length)
+        lenght = int(input())
+        lenghts.append(lenght)
 
     numbers = Xnext(a,c,m,x0,1000) #Generate a 1000 numbers (should nearly always be enough, can adjust if needed
     generator_index = 0 #Used to store the last used number index
