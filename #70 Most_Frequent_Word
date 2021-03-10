@@ -1,0 +1,58 @@
+from collections import Counter
+
+#Linear Congruential Generator (generates n numbers)
+def Xnext(a,c,m,x0,n):                        
+    numbers = [c]
+    if n>1:
+        xcur = (a* x0 +c)%m
+        for i in range(n-1):
+            xnext = (a* xcur +c)%m
+            xcur = xnext
+            numbers.append(xnext)
+
+    else:
+        xnext = (a*x0 +c) %m
+        numbers.append(xnext)
+        
+    return numbers
+
+
+#Main function
+def MostFrequentWord(a,c,m,x0,n):
+    consonants = ['b','c','d','f','g','h','j','k','l','m','n','p','r','s','t','v','w','x','z']
+    vowels = ['a','e','i','o','u']
+
+    #Prompts the user to input the amount of words to generate, and asks for their
+    amount_of_words = int(input('How many names do you want to generate?'))
+    lenghts = []
+    print('What is the length of the words?')
+    lenght = int(input())
+    for i in range(1, amount_of_words+1):
+        lenghts.append(lenght)
+
+    numbers = Xnext(a,c,m,x0,(amount_of_words * lenght) +1) #Generate a 1000 numbers (should nearly always be enough, can adjust if needed
+    generator_index = 0 #Used to store the last used number index
+    
+    #iterate amount_of_words times, alternating consonants and vowels, generating
+    #words based on their previously input lenghts
+    words = []
+    for w in range(amount_of_words):
+        consonant_or_vowel = 2
+        result = ''
+        for i in range(generator_index, generator_index + lenghts[w]):
+            if consonant_or_vowel % 2 ==0:
+                result += str(consonants[numbers[i]% 19])
+                consonant_or_vowel += 1
+            else:
+                result += str(vowels[numbers[i]% 5])
+                consonant_or_vowel += 1
+            generator_index += 1
+        words.append(result)
+
+    #Counts the most frequent words
+    counter = Counter(words)
+    print(counter.most_common(1))
+        
+        
+#Function calls
+MostFrequentWord(445,700001,2097152,99658,4)
