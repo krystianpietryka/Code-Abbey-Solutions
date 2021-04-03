@@ -1,0 +1,55 @@
+def twos_complement(number, bits):
+    # Invert the binary digits first
+    number_list = []
+    for i in number:
+        number_list.append(i)
+    for i in range(bits):
+        if number_list[i] == '0':
+            number_list[i] = '1'
+        else:
+            number_list[i] = '0'
+
+
+    #Add 1 to the end
+    if number_list[-1] == '0':
+        number_list[-1] = '1'
+    else:
+        number_list.reverse()
+        for i in number_list:
+            if i == '0':
+                index = number_list.index(i)
+                number_list[index] = '1'
+                return number_list
+    return number_list
+
+def bit_count(number):
+    negative = False
+
+    #Convert to binary
+    if number < 0:
+        negative = True
+    number = abs(number)
+    binary = ''
+    while number != 0:
+        binary = binary + str(int(number % 2))
+        number = int(number / 2)
+    if len(binary) < 32:
+        binary += ((32 - len(binary)) * '0')
+    binary = binary[::-1]
+
+    # Twos complement for negative numbers
+    if negative == True:
+        binary = twos_complement(binary, 32)
+
+    # Count the non-zero bits
+    bits = 0
+    for i in binary:
+        if i == '1':
+            bits += 1
+    print(bits)
+
+bit_count(1)
+bit_count(100)
+bit_count(-1)
+bit_count(16361)
+
