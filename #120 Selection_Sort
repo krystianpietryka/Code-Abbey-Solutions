@@ -1,0 +1,29 @@
+def selection_sort(array):
+    # Will contain the result
+    indexes = []
+
+    # Will narrow the end of sub_array
+    end = 0
+
+    length = len(array)
+    sub_array = array
+
+    # Main loop
+    while len(sub_array) != 1:
+        sub_array = array[0:(length - end)]  # create sub_array
+
+        # Find the max value from sub_array
+        max_value = 0
+        for m in sub_array:
+            if m > max_value:
+                max_value = m
+
+        # Add the index of max to indexes, and swap the max with the end of the sub_array
+        index = sub_array.index(max)
+        indexes.append(index)
+        array[index], array[-1-end] = array[-1-end], array[index]
+        end += 1  # Increment, to limit the sub_array next loop-around
+    return indexes
+
+
+print(selection_sort([31, 41, 59, 26, 53, 58]))
