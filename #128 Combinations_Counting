@@ -1,0 +1,10 @@
+import math
+
+def combination(n,k):
+    c = math.factorial(n) / (math.factorial(k) * math.factorial(n-k))
+    return c
+
+
+print(combination(3, 0))
+print(combination(4, 2))
+print(combination(5, 2))
