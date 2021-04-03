@@ -1,5 +1,5 @@
 # Code-Abbey-Solutions
-My solutions to Code Abbey problems,posted here for easy access, maybe it will be helpful to someone, and just maybe will be somewhat of a portfolio later on.
+My solutions to Code Abbey problems, posted here for easy access, maybe it will be helpful to someone, and just maybe will be somewhat of a portfolio for me later on.
 
 I hope to solve all problems from the Code Abbey site, currently only using basic Python.
 
