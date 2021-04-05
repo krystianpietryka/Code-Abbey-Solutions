@@ -1,36 +1,65 @@
-import numpy as np
+import random
 
+# Generate a random 4 digit answer
 answer = ''
+random.seed()
 for i in range(4):
-    random = str(np.random.randint(1, 10))
-    answer += random
+    random_digit = str(random.randint(1, 9))
+    answer += random_digit
 
 print('Let\'s play mastermind!')
 
-
 def Game():
-    correct = 0
-    wrongplace = 0
+    correct = []
+    wrongplace = []
     loop_count = 0
+
+    # Left will store not guessed digits, at the start it is always the same as answer
+    left = []
+    for i in answer:
+        left.append(i)
+
+    # Main loop
     while True:
+        # User inputs guess, advance loop_count by 1
         loop_count += 1
         print('Take a guess')
         guess = str(input())
-        if guess == answer:
+
+        while len(guess) != 4:  # input must be 4 digits long
+            print('you must guess 4 digits')
+            guess = str(input())
+
+        if guess == answer: # If the guess is entirely correct, user wins
             break
         else:
+
+            # Store the correct digits, derive the still un-guessed digits
             for i in range(0, 4):
                 if guess[i] == answer[i]:
-                    correct += 1
+                    correct.append(guess[i])
+                    left.remove(guess[i])
+
+            # Check how many guessed digits are present in the answer, but not on the correct place
             for w in guess:
-                if w in answer:
-                    wrongplace += 1
-            wrongplace -= correct
-        print('you got', correct, 'numbers exactly correct!')
-        print('you got', wrongplace, 'numbers right, but are in a wrong position.')
-        wrongplace = 0
-        correct = 0
+                if (w in answer) and (w in left):
+                    wrongplace.append(w)
+                    left.remove(w)
+            wrongplace = len(wrongplace) # Convert the list to int of its length
+
+        # Print the results for the current round
+        print('you got', len(correct), 'numbers exactly correct!')
+        print('you got', wrongplace, 'numbers right, but in wrong position.')
+
+        # Set the variables to their default state
+        correct = []
+        wrongplace = []
+        left = []
+        for i in answer:
+            left.append(i)
+            
+    # End game state
     print('Congratulations! You won the game after', loop_count, 'guesses!')
 
-
 Game()
+
