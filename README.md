@@ -28,20 +28,20 @@ Please do not use my code to grind for the certificate.
 [18. Square Root](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2310%20%20Linear_Function)\
 [19. Matching Brackets](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2318%20Square_Root)\
 [20. Vowel Count](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2320%20%20Vowel_Count)\
-[21.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2321%20%20Array_Counters)\
-[22.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2322%20%20Two_Printers)\
-[23.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2323%20%20Bubble_in_Array)\
-[24.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2324%20%20Neumann's_Random_Generator)\
-[25.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2325%20Linear_Congruential_Generator)\
-[26.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2326%20Greatest_Common_Divisor)\
-[27.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2327%20Bubble_Sort)\
-[28.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2328%20Body_Mass_Index)\
-[29.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2329%20Sort_with_Indexes)\
-[30.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2330%20Rotate_String)\
-[31.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2331%20Rotate_String)\
-[32.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2332%20Josephus_Problem)\
-[33.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2333%20Parity_Control)\
-[35.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2335%20Savings_Calculator)\
+[21. Array Counters](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2321%20%20Array_Counters)\
+[22. Two Printers](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2322%20%20Two_Printers)\
+[23. Bubble in Array](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2323%20%20Bubble_in_Array)\
+[24. Neumann's Random Generator](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2324%20%20Neumann's_Random_Generator)\
+[25. Linear Congruential Generator](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2325%20Linear_Congruential_Generator)\
+[26. Greatest Common Divisor](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2326%20Greatest_Common_Divisor)\
+[27. Bubble Sort](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2327%20Bubble_Sort)\
+[28. Body Mass Index](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2328%20Body_Mass_Index)\
+[29. Sort with Indexes](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2329%20Sort_with_Indexes)\
+[30. Reverse String](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2330%20Rotate_String)\
+[31. Rotate String](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2331%20Rotate_String)\
+[32. Josephus Problem](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2332%20Josephus_Problem)\
+[33. Parity Control](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2333%20Parity_Control)\
+[35. Savings Calculator](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2335%20Savings_Calculator)\
 [36.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2336%20Code_Guesser)\
 [38.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2338%20Quadratic_Equationg)\
 [39.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2339%20Share_Price_Volatility)\
