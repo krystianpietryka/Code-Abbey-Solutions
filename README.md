@@ -42,38 +42,37 @@ Please do not use my code to grind for the certificate.
 [32. Josephus Problem](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2332%20Josephus_Problem)\
 [33. Parity Control](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2333%20Parity_Control)\
 [35. Savings Calculator](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2335%20Savings_Calculator)\
-[36.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2336%20Code_Guesser)\
-[38.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2338%20Quadratic_Equationg)\
-[39.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2339%20Share_Price_Volatility)\
-[41.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2341%20Median_of_Three)\
-[42.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2342%20Blackjack_Counting)\
-[43.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2343%20Dice_Rolling)\
-[44.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2344%20Double_Dice_Roll)\
-[45.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2345%20Cards_Shuffling)\
-[46.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2346%20Tic_Tac_Toe)\
-[47.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2347%20Caesar_Shift_Cypher)\
-[48.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2348%20Collatz_Sequence)\
-[49.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2349%20Rock_Paper_Scissors)\
-[50.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2350%20Palindromes)\
-[51.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2350%20Palindromes)\
-[54.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2354%20Pythagorean_Triples)\
-[55.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2355%20Matching_Words)\
-[57.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2357%20Smoothing_The_Weather)\
-[58.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2358%20Card_Names)\
-[59.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2359%20Bulls_And_Cows)\
-[60.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2360%20Sweet_Harvest)\
-[61.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2361%20Prime_Numbers_Generation)\
-[62.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2362%20Prime_Ranges)\
-[67.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2367%20Fibonacci_Sequence)\
-[68.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2368%20Two_Cyclists)\
-[69.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2369%20Fibonacci_Divisibility)\
-[70.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2370%20Most_Frequent_Word)\
-[71.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2371%20Fibonacci_Divisibility_Advanced)\
-[72.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2372%20Funny_Words_Generator)\
-[75.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2375%20Yacht_Or_Dice_Poker)\
-[70.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2370%20Most_Frequent_Word)\
-[81.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2381%20Bit_Count)\
-[104.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%23104%20Triangle_Area)\
-[120.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%23120%20Selection_Sort)\
-[128.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%23128%20Combinations_Counting)
+[36. Code Guesser](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2336%20Code_Guesser)\
+[38. Quadratic Equation](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2338%20Quadratic_Equationg)\
+[39. Share Price Volatility](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2339%20Share_Price_Volatility)\
+[41. Median of Three](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2341%20Median_of_Three)\
+[42. Blackjack Counting](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2342%20Blackjack_Counting)\
+[43. Dice Rolling](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2343%20Dice_Rolling)\
+[44. Double Dice Roll](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2344%20Double_Dice_Roll)\
+[45. Cards Shuffling](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2345%20Cards_Shuffling)\
+[46. Tic-Tac-Toe](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2346%20Tic_Tac_Toe)\
+[47. Caesar Shift Cipher](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2347%20Caesar_Shift_Cypher)\
+[48. Collatz Sequence](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2348%20Collatz_Sequence)\
+[49. Rock Paper Scissors](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2349%20Rock_Paper_Scissors)\
+[50. Palindromes](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2350%20Palindromes)\
+[51. Dungeons and Dragons Dice](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2350%20Palindromes)\
+[54. Pythagorean Triples](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2354%20Pythagorean_Triples)\
+[55. Matching Words](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2355%20Matching_Words)\
+[57. Smoothing the Weather](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2357%20Smoothing_The_Weather)\
+[58. Card Names](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2358%20Card_Names)\
+[59. Bulls and Cows](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2359%20Bulls_And_Cows)\
+[60. Sweet Harvest](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2360%20Sweet_Harvest)\
+[61. Prime Numbers Generation](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2361%20Prime_Numbers_Generation)\
+[62. Prime Ranges](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2362%20Prime_Ranges)\
+[67. Fibonacci Sequence](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2367%20Fibonacci_Sequence)\
+[68. Bicycle Race](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2368%20Two_Cyclists)\
+[69. Fibonacci Divisibility](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2369%20Fibonacci_Divisibility)\
+[70. Most Frequent Word](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2370%20Most_Frequent_Word)\
+[71. Fibonacci Divisibility Advanced](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2371%20Fibonacci_Divisibility_Advanced)\
+[72. Funny Words Generator](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2372%20Funny_Words_Generator)\
+[75. Yacht or Dice Poker](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2375%20Yacht_Or_Dice_Poker)\
+[81. Bit Count](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2381%20Bit_Count)\
+[104. Triangle Area](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%23104%20Triangle_Area)\
+[120. Selection Sort](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%23120%20Selection_Sort)\
+[128. Combinations Counting](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%23128%20Combinations_Counting)
 
