@@ -7,7 +7,7 @@ I try to comment everything; if the code is complicated enough to justify doing 
 
 Please do not use my code to grind for the certificate.
 
-## Problems list:
+## Problem list:
 [1.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%231_Sum_A_B)\
 [2.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%232%20%20Sum_in_Loop)\
 [3.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%233%20%20Sums_in_Loop)\
