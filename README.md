@@ -8,15 +8,15 @@ I try to comment everything; if the code is complicated enough to justify doing 
 Please do not use my code to grind for the certificate.
 
 ## Problem list:
-[1.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%231_Sum_A_B)\
-[2.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%232%20%20Sum_in_Loop)\
-[3.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%233%20%20Sums_in_Loop)\
-[4.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%234%20Minimum_of_Two)\
-[5.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%235%20Minimum_of_Three)\
-[6.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%236%20Rounding)\
-[7.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%237%20Fahrenheit_to_Celsius)\
-[8.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%238%20Arithmetic_Progression)\
-[9.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%239%20Triangles)\
+[1. Sum "A+B"](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%231_Sum_A_B)\
+[2. Sum in Loop](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%232%20%20Sum_in_Loop)\
+[3. Sums in Loop](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%233%20%20Sums_in_Loop)\
+[4. Minimum of Two](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%234%20Minimum_of_Two)\
+[5. Minimum of Three](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%235%20Minimum_of_Three)\
+[6. Rounding](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%236%20Rounding)\
+[7. Fahrenheit to Celsius](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%237%20Fahrenheit_to_Celsius)\
+[8. Arithmetic Progression](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%238%20Arithmetic_Progression)\
+[9. Triangles](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%239%20Triangles)\
 [10.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2310%20%20Linear_Function)\
 [11.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2311%20%20Sum_of_digits)\
 [12.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2312%20Modulo_and_time_difference)\
