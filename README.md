@@ -10,6 +10,15 @@ Whitespaces in titles converted to underscores, because it messes with git.
 Please do not use my code to grind for the certificate.
 
 ## Problems list:
+[1.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%231_Sum_A_B)\
+[2.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%232%20%20Sum_in_Loop)\
+[3.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%233%20%20Sums_in_Loop)\
+[4.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%234%20Minimum_of_Two)\
+[5.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%235%20Minimum_of_Three)\
+[6.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%236%20Rounding)\
+[7.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%237%20Fahrenheit_to_Celsius)\
+[8.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%238%20Arithmetic_Progression)\
+[9.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%239%20Triangles)\
 [10.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2310%20%20Linear_Function)\
 [11.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2311%20%20Sum_of_digits)\
 [12.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2312%20Modulo_and_time_difference)\
@@ -54,3 +63,19 @@ Please do not use my code to grind for the certificate.
 [57.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2357%20Smoothing_The_Weather)\
 [58.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2358%20Card_Names)\
 [59.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2359%20Bulls_And_Cows)\
+[60.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2360%20Sweet_Harvest)\
+[61.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2361%20Prime_Numbers_Generation)\
+[62.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2362%20Prime_Ranges)\
+[67.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2367%20Fibonacci_Sequence)\
+[68.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2368%20Two_Cyclists)\
+[69.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2369%20Fibonacci_Divisibility)\
+[70.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2370%20Most_Frequent_Word)\
+[71.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2371%20Fibonacci_Divisibility_Advanced)\
+[72.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2372%20Funny_Words_Generator)\
+[75.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2375%20Yacht_Or_Dice_Poker)\
+[70.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2370%20Most_Frequent_Word)\
+[81.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2381%20Bit_Count)\
+[104.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%23104%20Triangle_Area)\
+[120.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%23120%20Selection_Sort)\
+[128.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%23128%20Combinations_Counting)
+
