@@ -17,17 +17,17 @@ Please do not use my code to grind for the certificate.
 [7. Fahrenheit to Celsius](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%237%20Fahrenheit_to_Celsius)\
 [8. Arithmetic Progression](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%238%20Arithmetic_Progression)\
 [9. Triangles](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%239%20Triangles)\
-[10.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2310%20%20Linear_Function)\
-[11.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2311%20%20Sum_of_digits)\
-[12.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2312%20Modulo_and_time_difference)\
-[13.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2313%20Weighted_sum_of_digits)\
-[14.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2314%20Modular_Calculator)\
-[15.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2315%20Maximum_of_array)\
-[16.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2316%20Average_of_an_array)\
-[17.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2317%20Array_Checksum)\
-[18.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2310%20%20Linear_Function)\
-[19.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2318%20Square_Root)\
-[20.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2320%20%20Vowel_Count)\
+[10. Linear Function](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2310%20%20Linear_Function)\
+[11. Sum of digits](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2311%20%20Sum_of_digits)\
+[12. Modulo and time difference](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2312%20Modulo_and_time_difference)\
+[13. Weighted sum of digits](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2313%20Weighted_sum_of_digits)\
+[14. Modular Calculator](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2314%20Modular_Calculator)\
+[15. Maximum of array](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2315%20Maximum_of_array)\
+[16. Average of an array](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2316%20Average_of_an_array)\
+[17. Array Checksum](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2317%20Array_Checksum)\
+[18. Square Root](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2310%20%20Linear_Function)\
+[19. Matching Brackets](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2318%20Square_Root)\
+[20. Vowel Count](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2320%20%20Vowel_Count)\
 [21.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2321%20%20Array_Counters)\
 [22.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2322%20%20Two_Printers)\
 [23.](https://github.com/Kkomek21/Code-Abbey-Solutions/blob/master/%2323%20%20Bubble_in_Array)\
